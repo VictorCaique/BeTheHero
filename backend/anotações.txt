@@ -1,0 +1,59 @@
+No backend estamos ultilazando:
+
+Node
+Express
+Knex -> QueryBuilder, SQLite
+Nodemon -> Teste tempo real
+SQLite
+
+  NPX -> Executa um pacote
+  NPM -> Instala um pacote
+
+
+/*
+* Rota é o endereço inteiro, e recurso é o que vem após a "/"
+*/
+
+/*
+ * Métodos HTTP:
+ * GET: Buscar/listar uma informação do back-end
+ * POST: Criar uma informação no back-end
+ * PUT: Alterar uma informação no back-end
+ * DELETE: Deletar uma informação no back-end
+ */
+
+ /*
+  * Tipos de Parâmetros
+  *
+  * query params: Parâmetros noemados enviados na rota após o simbolo de "?" (Filtros, Paginação)
+  * route params: Parâmetros ultilizados para identificar recursos
+  * request body: Corpo da requisição, utilizado para criar ou alterar recuros 
+  */
+
+ 
+   Banco de Dados
+  
+   SQL: MySQL, SQLite, PostGreeSQL, Oracle, Microsoft SQL Server -> Mais utilizado no mercado
+   NoSQL: MongoDB, CounchDB, etc
+
+   Comunicação
+ 
+   Driver: ex: SELECT * FROM users
+   Query Builder: ex: table('users').select('*')
+  
+    Entidades
+
+    ong
+    casos (incident)
+
+    Funcionalidades
+
+    ong    
+        Login
+        Cadastro
+        Logout
+        Cadastro Caso
+        listar os casos
+        listar todos os casos
+        entrar em contato com a ong (via whatts e e-mail)
+
